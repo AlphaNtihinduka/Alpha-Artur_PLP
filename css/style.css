@@ -1,14 +1,15 @@
 body {
     background-color: coral;
 }
-
-
 #header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-top: 40px;
-    width: 100px;
+    position: fixed;
+    z-index: 100;
+    background-color: dimgray;
+
 }
 #header a {
     color: white;
@@ -33,6 +34,7 @@ body {
     padding: 0px;
     width: 100%;
     height: auto;
+    margin-top: 130px;
 }
 #header iframe {
     max-width: 100%;
