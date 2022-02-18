@@ -9,28 +9,56 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
-
-      <nav id="nav-bar">
-        <a href="#" class="nav-link">Features</a>
-        <a href="#" class="nav-link">How it works</a>
-        <a href="#" class="nav-link">Pricing</a>
-      </nav>
-      <img id="header-img" src="images/product-landing-page-logo.png" >
+        <nav id="nav-bar">
+          <div><a href="#about" class="nav-link">about</a></div>
+          <div><a href="#Construction" class="nav-link">Construction</a></div>
+          <div><a href="#Contemporary use" class="nav-link">Contemporary use</a></div>
+        </nav>
+        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" >
     </header>
-    <video id="video" width="320" height="240" controls>
-      <source src="https://youtu.be/y8Yv4pnO7qc" loop muted>
-    </video>
+    <!--<video id="video" width="320" height="240" controls>-->
+    <!--<video id="video">-->
+      <iframe
+         width="560" height="315" src="https://www.youtube.com/embed/6rY67y5y2PU" 
+         title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+         picture-in-picture" allowfullscreen></iframe>
+      <!--<source src="https://youtu.be/y8Yv4pnO7qc" loop muted>
+    </video>-->  
+   
+    
+      <p id="about">The trombone is a musical instrument in the brass family. As with all brass
+         instruments, sound is produced when the player's vibrating lips (embouchure) cause 
+         the air column inside the instrument to vibrate. Unlike most other brass instruments, 
+         which have valves that, when pressed, alter the pitch of the instrument, trombones 
+         instead have a telescoping slide mechanism that varies the length of the instrument to 
+         change the pitch. However, many modern trombone models also have a valve attachment 
+         which lowers the pitch of the instrument. Variants such as the valve trombone and 
+         superbone have three valves similar to those on the trumpet.
+      </p>
+      <p id="Construction">The trombone is a predominantly cylindrical tube bent into an elongated "S" shape. 
+         Rather than being completely cylindrical from end to end, the tube is a complex 
+         series of tapers with the smallest at the mouthpiece receiver and the largest just
+         before the bell flare. The design of these tapers affects the intonation of the
+         instrument. As with other brass instruments, sound is produced by blowing air
+         through pursed lips producing a vibration that creates a standing wave in the 
+         instrument.
+      </p>
+    </div>
+      <p id="Contemporary use">The trombone can be found in symphony orchestras, concert bands, marching bands, 
+         military bands, brass bands, and brass choirs. In chamber music, it is used in brass
+         quintets, quartets, or trios, or trombone trios, quartets, or choirs. The size of a
+         trombone choir can vary from five or six to twenty or more members. Trombones are 
+         also common in swing, jazz, merengue, salsa, R&B, ska, and New Orleans brass bands.
+      </p>
+    </div>
+
     <form id="form" method="post" action="https://www.freecodecamp.com/email-submit" >
       <label for="email">Email</label>
       <input name="email" type="email" id="email" placeholder="Enter your email address" required>
-      <input  id="submit" type="submit" value="Get started">
+      <input  id="submit" type="submit" value="Submit">
     </form>
 
-    <main>
-      
-      
-    </main>
-    
-    <script  src="js/index.js"></script>
+   <script  src="js/index.js"></script>
   </body>
 </html>
