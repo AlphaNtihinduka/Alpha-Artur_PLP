@@ -67,11 +67,16 @@ height: 100%;
 @media screen and (min-width: 600px) {
     body {
         background-color: lightblue;
+        color: black;
     }
 }
 
 @media screen and (min-width: 768px) {
     body {
-        background-color: lightgreen;
+        background-color: black;
+        color: rgb(172, 143, 143);
+    }
+    h2 {
+        color: purple;
     }
 }
